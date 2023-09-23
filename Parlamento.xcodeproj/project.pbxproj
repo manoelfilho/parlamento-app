@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5CC8032ABF988E004B3A28 /* ParlamentoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CC8022ABF988E004B3A28 /* ParlamentoApp.swift */; };
+		BB5CC8052ABF988E004B3A28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CC8042ABF988E004B3A28 /* ContentView.swift */; };
+		BB5CC8072ABF9890004B3A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5CC8062ABF9890004B3A28 /* Assets.xcassets */; };
+		BB5CC80A2ABF9890004B3A28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5CC8092ABF9890004B3A28 /* Preview Assets.xcassets */; };
+		BB5CC80C2ABF9890004B3A28 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CC80B2ABF9890004B3A28 /* Persistence.swift */; };
+		BB5CC80F2ABF9890004B3A28 /* Parlamento.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB5CC80D2ABF9890004B3A28 /* Parlamento.xcdatamodeld */; };
+		BB5CC81A2ABF9891004B3A28 /* ParlamentoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CC8192ABF9891004B3A28 /* ParlamentoTests.swift */; };
+		BB5CC8242ABF9891004B3A28 /* ParlamentoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CC8232ABF9891004B3A28 /* ParlamentoUITests.swift */; };
+		BB5CC8262ABF9891004B3A28 /* ParlamentoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CC8252ABF9891004B3A28 /* ParlamentoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB5CC8162ABF9891004B3A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5CC7F72ABF988E004B3A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5CC7FE2ABF988E004B3A28;
+			remoteInfo = Parlamento;
+		};
+		BB5CC8202ABF9891004B3A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5CC7F72ABF988E004B3A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5CC7FE2ABF988E004B3A28;
+			remoteInfo = Parlamento;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB5CC7FF2ABF988E004B3A28 /* Parlamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parlamento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5CC8022ABF988E004B3A28 /* ParlamentoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlamentoApp.swift; sourceTree = "<group>"; };
+		BB5CC8042ABF988E004B3A28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB5CC8062ABF9890004B3A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5CC8092ABF9890004B3A28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB5CC80B2ABF9890004B3A28 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BB5CC80E2ABF9890004B3A28 /* Parlamento.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Parlamento.xcdatamodel; sourceTree = "<group>"; };
+		BB5CC8102ABF9890004B3A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5CC8152ABF9891004B3A28 /* ParlamentoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParlamentoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5CC8192ABF9891004B3A28 /* ParlamentoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlamentoTests.swift; sourceTree = "<group>"; };
+		BB5CC81F2ABF9891004B3A28 /* ParlamentoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParlamentoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5CC8232ABF9891004B3A28 /* ParlamentoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlamentoUITests.swift; sourceTree = "<group>"; };
+		BB5CC8252ABF9891004B3A28 /* ParlamentoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlamentoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB5CC7FC2ABF988E004B3A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5CC8122ABF9891004B3A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5CC81C2ABF9891004B3A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5CC7F62ABF988E004B3A28 = {
+			isa = PBXGroup;
+			children = (
+				BB5CC8012ABF988E004B3A28 /* Parlamento */,
+				BB5CC8182ABF9891004B3A28 /* ParlamentoTests */,
+				BB5CC8222ABF9891004B3A28 /* ParlamentoUITests */,
+				BB5CC8002ABF988E004B3A28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5CC8002ABF988E004B3A28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5CC7FF2ABF988E004B3A28 /* Parlamento.app */,
+				BB5CC8152ABF9891004B3A28 /* ParlamentoTests.xctest */,
+				BB5CC81F2ABF9891004B3A28 /* ParlamentoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5CC8012ABF988E004B3A28 /* Parlamento */ = {
+			isa = PBXGroup;
+			children = (
+				BB5CC8022ABF988E004B3A28 /* ParlamentoApp.swift */,
+				BB5CC8042ABF988E004B3A28 /* ContentView.swift */,
+				BB5CC8062ABF9890004B3A28 /* Assets.xcassets */,
+				BB5CC80B2ABF9890004B3A28 /* Persistence.swift */,
+				BB5CC8102ABF9890004B3A28 /* Info.plist */,
+				BB5CC80D2ABF9890004B3A28 /* Parlamento.xcdatamodeld */,
+				BB5CC8082ABF9890004B3A28 /* Preview Content */,
+			);
+			path = Parlamento;
+			sourceTree = "<group>";
+		};
+		BB5CC8082ABF9890004B3A28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB5CC8092ABF9890004B3A28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB5CC8182ABF9891004B3A28 /* ParlamentoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5CC8192ABF9891004B3A28 /* ParlamentoTests.swift */,
+			);
+			path = ParlamentoTests;
+			sourceTree = "<group>";
+		};
+		BB5CC8222ABF9891004B3A28 /* ParlamentoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5CC8232ABF9891004B3A28 /* ParlamentoUITests.swift */,
+				BB5CC8252ABF9891004B3A28 /* ParlamentoUITestsLaunchTests.swift */,
+			);
+			path = ParlamentoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5CC7FE2ABF988E004B3A28 /* Parlamento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5CC8292ABF9891004B3A28 /* Build configuration list for PBXNativeTarget "Parlamento" */;
+			buildPhases = (
+				BB5CC7FB2ABF988E004B3A28 /* Sources */,
+				BB5CC7FC2ABF988E004B3A28 /* Frameworks */,
+				BB5CC7FD2ABF988E004B3A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parlamento;
+			productName = Parlamento;
+			productReference = BB5CC7FF2ABF988E004B3A28 /* Parlamento.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB5CC8142ABF9891004B3A28 /* ParlamentoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5CC82C2ABF9891004B3A28 /* Build configuration list for PBXNativeTarget "ParlamentoTests" */;
+			buildPhases = (
+				BB5CC8112ABF9891004B3A28 /* Sources */,
+				BB5CC8122ABF9891004B3A28 /* Frameworks */,
+				BB5CC8132ABF9891004B3A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5CC8172ABF9891004B3A28 /* PBXTargetDependency */,
+			);
+			name = ParlamentoTests;
+			productName = ParlamentoTests;
+			productReference = BB5CC8152ABF9891004B3A28 /* ParlamentoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB5CC81E2ABF9891004B3A28 /* ParlamentoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5CC82F2ABF9891004B3A28 /* Build configuration list for PBXNativeTarget "ParlamentoUITests" */;
+			buildPhases = (
+				BB5CC81B2ABF9891004B3A28 /* Sources */,
+				BB5CC81C2ABF9891004B3A28 /* Frameworks */,
+				BB5CC81D2ABF9891004B3A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5CC8212ABF9891004B3A28 /* PBXTargetDependency */,
+			);
+			name = ParlamentoUITests;
+			productName = ParlamentoUITests;
+			productReference = BB5CC81F2ABF9891004B3A28 /* ParlamentoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5CC7F72ABF988E004B3A28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BB5CC7FE2ABF988E004B3A28 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BB5CC8142ABF9891004B3A28 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BB5CC7FE2ABF988E004B3A28;
+					};
+					BB5CC81E2ABF9891004B3A28 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BB5CC7FE2ABF988E004B3A28;
+					};
+				};
+			};
+			buildConfigurationList = BB5CC7FA2ABF988E004B3A28 /* Build configuration list for PBXProject "Parlamento" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5CC7F62ABF988E004B3A28;
+			productRefGroup = BB5CC8002ABF988E004B3A28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5CC7FE2ABF988E004B3A28 /* Parlamento */,
+				BB5CC8142ABF9891004B3A28 /* ParlamentoTests */,
+				BB5CC81E2ABF9891004B3A28 /* ParlamentoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5CC7FD2ABF988E004B3A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5CC80A2ABF9890004B3A28 /* Preview Assets.xcassets in Resources */,
+				BB5CC8072ABF9890004B3A28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5CC8132ABF9891004B3A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5CC81D2ABF9891004B3A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB5CC7FB2ABF988E004B3A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5CC80C2ABF9890004B3A28 /* Persistence.swift in Sources */,
+				BB5CC8052ABF988E004B3A28 /* ContentView.swift in Sources */,
+				BB5CC80F2ABF9890004B3A28 /* Parlamento.xcdatamodeld in Sources */,
+				BB5CC8032ABF988E004B3A28 /* ParlamentoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5CC8112ABF9891004B3A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5CC81A2ABF9891004B3A28 /* ParlamentoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5CC81B2ABF9891004B3A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5CC8242ABF9891004B3A28 /* ParlamentoUITests.swift in Sources */,
+				BB5CC8262ABF9891004B3A28 /* ParlamentoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB5CC8172ABF9891004B3A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5CC7FE2ABF988E004B3A28 /* Parlamento */;
+			targetProxy = BB5CC8162ABF9891004B3A28 /* PBXContainerItemProxy */;
+		};
+		BB5CC8212ABF9891004B3A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5CC7FE2ABF988E004B3A28 /* Parlamento */;
+			targetProxy = BB5CC8202ABF9891004B3A28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB5CC8272ABF9891004B3A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB5CC8282ABF9891004B3A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5CC82A2ABF9891004B3A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Parlamento/Preview Content\"";
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.manoelfilho.parlamento.Parlamento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB5CC82B2ABF9891004B3A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Parlamento/Preview Content\"";
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.manoelfilho.parlamento.Parlamento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB5CC82D2ABF9891004B3A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.manoelfilho.parlamento.ParlamentoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parlamento.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parlamento";
+			};
+			name = Debug;
+		};
+		BB5CC82E2ABF9891004B3A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.manoelfilho.parlamento.ParlamentoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parlamento.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parlamento";
+			};
+			name = Release;
+		};
+		BB5CC8302ABF9891004B3A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.manoelfilho.parlamento.ParlamentoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parlamento;
+			};
+			name = Debug;
+		};
+		BB5CC8312ABF9891004B3A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.manoelfilho.parlamento.ParlamentoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parlamento;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5CC7FA2ABF988E004B3A28 /* Build configuration list for PBXProject "Parlamento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5CC8272ABF9891004B3A28 /* Debug */,
+				BB5CC8282ABF9891004B3A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5CC8292ABF9891004B3A28 /* Build configuration list for PBXNativeTarget "Parlamento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5CC82A2ABF9891004B3A28 /* Debug */,
+				BB5CC82B2ABF9891004B3A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5CC82C2ABF9891004B3A28 /* Build configuration list for PBXNativeTarget "ParlamentoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5CC82D2ABF9891004B3A28 /* Debug */,
+				BB5CC82E2ABF9891004B3A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5CC82F2ABF9891004B3A28 /* Build configuration list for PBXNativeTarget "ParlamentoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5CC8302ABF9891004B3A28 /* Debug */,
+				BB5CC8312ABF9891004B3A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB5CC80D2ABF9890004B3A28 /* Parlamento.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB5CC80E2ABF9890004B3A28 /* Parlamento.xcdatamodel */,
+			);
+			currentVersion = BB5CC80E2ABF9890004B3A28 /* Parlamento.xcdatamodel */;
+			path = Parlamento.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB5CC7F72ABF988E004B3A28 /* Project object */;
+}
